@@ -1,0 +1,452 @@
+.atas_img {
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  text-align: center;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: -30px;
+  border-radius: 1.5rem;
+  --smooth-corners: 4;
+}
+
+@media (max-width: 767px) {
+  .atas_img {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: -30px;
+    border-radius: 1.5rem;
+    --smooth-corners: 4;
+    vertical-align: middle;
+  }
+}
+
+figure {
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  text-align: center;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: -30px;
+}
+
+@media (max-width: 767px) {
+  figure {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: -30px;
+  }
+}
+
+
+.text_atas_article {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  color: #3f3f3f;
+  justify-content: justify;
+  align-items: justify;
+  align-content: justify;
+  text-align: justify;
+  padding: 2rem;
+}
+
+@media (max-width: 767px) {
+  .text_atas_article {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    color: #3f3f3f;
+    justify-content: justify;
+    align-items: justify;
+    align-content: justify;
+    text-align: justify;
+    padding: 2rem;
+  }
+}
+
+img {
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  text-align: center;
+  border-radius: 1.5rem;
+  --smooth-corners: 4;
+}
+
+.img_article {
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  text-align: center;
+  margin-right: 0;
+  margin-left: 199px;
+  margin-bottom: 10vh;
+  border-radius: 1.5rem;
+  --smooth-corners: 4;
+}
+
+@media (max-width: 767px) {
+  .img_article {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 2vh;
+    border-radius: 1.5rem;
+    --smooth-corners: 4;
+  }
+}
+
+article {
+  padding-left: 98px;
+  text-align: justify;
+  padding: 10px;
+  margin: 30px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  article {
+    padding-left: 28px;
+    text-align: justify;
+    padding: 10px;
+    margin-top: -30px;
+    margin: 5px;
+    margin-bottom: 20px;
+  }
+}
+
+.preview {
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  text-align: center;
+}
+
+iframe {
+  width: 90%;
+  height: 650px;
+}
+
+@media (max-width: 767px) {
+  iframe {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+.button78 {
+  display: inline-block;
+  background-color: #F4F4F7;
+  color: #000000;
+  border: 2px solid #000000;
+  border-color: #000000;
+  padding: 0.75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: 1.5rem;
+  --smooth-corners: 4;
+  transition: 0.5s;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button78:hover {
+  box-shadow: 0px 10px 36px #2a93ff;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  text-align: center;
+  color: #ffffff;
+  background-color: #3f9eff;
+  border-radius: 1.5rem;
+  --smooth-corners: 4;
+}
+
+.buttoncenter {
+  display: inline-block;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  text-align: center;
+}
+
+
+
+/* Plyr YouTube Player */
+.container {
+  margin: 20px auto;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-radius: 0.8rem;
+  --smooth-corners: 4;
+  background-color: #010409;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.player-wrapper {
+  flex: 1 1 45%;
+  min-width: 300px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+  .container {
+    margin: 10px;
+    padding: 0.5rem;
+  }
+
+  .player-wrapper {
+    flex: 1 1 100%;
+  }
+}
+
+/* Plyr YouTube Player */
+
+
+
+/* ===== Work Section =====*/
+
+
+.titleputih {
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.titlehitam {
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+}
+
+.aticlesection {
+  padding: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: justify;
+}
+
+.aticlesectionputih {
+  padding: 30px;
+  color: #ffffff;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: justify;
+}
+
+.wireframe {
+  background-color: #000;
+  background: #000;
+  border-radius: 1.5rem;
+  --smooth-corners: 4;
+}
+
+
+.thedesign {
+  background-color: #2D9FFF;
+  background: #2D9FFF;
+  border-radius: 1.5rem;
+  --smooth-corners: 4;
+}
+
+.prototype {
+  background-color: linear-gradient(#CDC0F8, #AAB7FE);
+  background: linear-gradient(#CDC0F8, #AAB7FE);
+  border-radius: 1.5rem;
+  --smooth-corners: 4;
+}
+
+
+.container_article {
+  margin: 30px auto;
+  max-width: 95%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  border-radius: 0.9rem;
+  --smooth-corners: 4;
+  background: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  animation: float 3s ease-in-out infinite;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+    box-shadow: 0 10px 30px rgba(31, 38, 135, 0.37);
+  }
+
+  50% {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(31, 38, 135, 0.37);
+  }
+}
+
+
+/* pic container atas */
+
+.container {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  max-width: 1440px;
+  /* Maximum width for very large screens */
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #F4F4F7;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  /* Allow some margin on the sides */
+  max-width: 800px;
+  /* Maximum width for the centered content */
+}
+
+.text-block {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: clamp(20px, 4vw, 40px);
+  /* Responsive padding */
+  font-size: clamp(24px, 3vw, 40px);
+  /* Responsive font size */
+  border-radius: 8px;
+  /* Optional: rounded corners */
+  backdrop-filter: blur(4px);
+  /* Optional: adds a modern blur effect */
+}
+
+/* Large Desktop Screens (1440px and up) */
+@media screen and (min-width: 1440px) {
+  .text-block {
+    padding: 40px;
+    font-size: 40px;
+  }
+}
+
+/* Desktop and Laptop Screens (1024px to 1439px) */
+@media screen and (max-width: 1024px) {
+  .text-block {
+    padding: 35px;
+    font-size: 36px;
+  }
+}
+
+/* Tablet Screens (768px to 1023px) */
+@media screen and (max-width: 768px) {
+  .text-block {
+    padding: 30px;
+    font-size: 32px;
+  }
+}
+
+/* Large Mobile Screens (480px to 767px) */
+@media screen and (max-width: 480px) {
+  .text-block {
+    padding: 25px;
+    font-size: 28px;
+  }
+}
+
+/* Small Mobile Screens (up to 479px) */
+@media screen and (max-width: 320px) {
+  .text-block {
+    padding: 20px;
+    font-size: 24px;
+  }
+}
+
+/* Ensure content is visible on very tall screens */
+@media screen and (min-height: 1000px) {
+  .container {
+    min-height: 50vh;
+  }
+}
+
+/* Optional: Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .text-block {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+}
+
+/* Optional: Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .centered {
+    transition: none;
+  }
+}
+
+/* pic container atas */

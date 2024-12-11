@@ -1,0 +1,37 @@
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "name": "Wildan Akbar Putra Nugraha",
+  "url": "https://www.wildanakpn.xyz",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.wildanakpn.xyz/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+
+
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "https://www.wildanakpn.xyz",
+  "name": "Wildan Akbar Putra Nugraha | IT Product Designer Customer-Centric or UI/UX Designer",
+  "description": "Wildan Akbar Putra Nugraha | IT Product Designer Customer-Centric or UI/UX Designer",
+  "author": {
+    "@type": "Person",
+    "name": "Wildan Akbar Putra Nugraha"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Wildan Akbar Putra Nugraha",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.wildanakpn.xyz/assets/img/wildan.png"
+    }
+  },
+  "image": "https://www.wildanakpn.xyz/assets/img/wildan.png",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.wildanakpn.xyz"
+  }
+}

@@ -1,0 +1,258 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Wildan Akbar Putra Nugraha",
+    "jobTitle": "IT Product Designer",
+    "url": "https://www.wildanakpn.xyz/",
+    "sameAs": [
+        "https://www.facebook.com/akbarputra.xyz",
+        "https://wa.link/gd9ws3",
+        "https://t.me/akbarputra37",
+        "https://www.linkedin.com/in/akbarputra37",
+        "https://medium.com/@akbarputra37",
+        "https://dribbble.com/akbarputra37",
+        "https://github.com/akbarputra37",
+        "https://g.dev/akbarputra37",
+        "https://x.com/akbarputra37"
+    ],
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "wildanakpn@gmail.com",
+        "contactType": "Customer Support"
+    }
+}
+
+{
+    "@context": "https://schema.org",
+    "@graph": [{
+            "@type": "WebPage",
+            "@id": "https://akbarputra.xyz/",
+            "url": "https://akbarputra.xyz/",
+            "name": "Akbar Putra | IT Product Designer Customer-Centric or UI/UX Designer",
+            "isPartOf": {
+                "@id": "https://akbarputra.xyz/#website"
+            },
+            "about": {
+                "@id": "https://akbarputra.xyz/#person"
+            },
+            "primaryImageOfPage": {
+                "@id": "https://akbarputra.xyz/#primaryimage"
+            },
+            "image": {
+                "@id": "https://akbarputra.xyz/#primaryimage"
+            },
+            "thumbnailUrl": "https://akbarputra.xyz/",
+            "datePublished": "2019-11-22T19:29:01+00:00",
+            "dateModified": "2023-08-15T13:16:54+00:00",
+            "breadcrumb": {
+                "@id": "https://akbarputra.xyz/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [{
+                "@type": "ReadAction",
+                "target": ["https://akbarputra.xyz/"]
+            }]
+        },
+        {
+            "@type": "ImageObject",
+            "@id": "https://akbarputra.xyz/#primaryimage",
+            "url": "https://akbarputra.xyz/",
+            "contentUrl": "https://akbarputra.xyz/",
+            "width": 359,
+            "height": 553,
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://akbarputra.xyz/#breadcrumb",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home"
+            }]
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://akbarputra.xyz/#website",
+            "url": "https://akbarputra.xyz/",
+            "name": "AkbarPutra",
+            "description": "UI/UX designer who teaches design on YouTube.",
+            "publisher": {
+                "@id": "https://akbarputra.xyz/#person"
+            },
+            "potentialAction": [{
+                "@type": "SearchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://akbarputra.xyz/?s={search_term_string}"
+                },
+                "query-input": "required name=search_term_string"
+            }],
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": ["Person", "Organization"],
+            "@id": "https://akbarputra.xyz/#person",
+            "name": "manager",
+            "image": {
+                "@type": "ImageObject",
+                "@id": "https://akbarputra.xyz/#person/image",
+                "url": "https://ml0eehlclbti.i.optimole.com/n_d9yNU-rTF0ytSB/w:586/h:785/q:90/https://akbarputra.xyz/",
+                "contentUrl": "https://ml0eehlclbti.i.optimole.com/n_d9yNU-rTF0ytSB/w:586/h:785/q:90/https://akbarputra.xyz/",
+                "width": 586,
+                "height": 785,
+                "caption": "manager",
+                "inLanguage": "en-US"
+            },
+            "logo": {
+                "@id": "https://akbarputra.xyz/#person/image"
+            }
+        }
+    ]
+}
+
+
+{
+    "@context": "https://schema.org",
+    "@graph": [{
+            "@type": "WebPage",
+            "@id": "https://akbarputra.xyz/",
+            "url": "https://akbarputra.xyz/",
+            "name": "Akbar Putra | IT Product Designer Customer-Centric or UI/UX Designer",
+            "isPartOf": {
+                "@id": "https://akbarputra.xyz/#website"
+            },
+            "about": {
+                "@id": "https://akbarputra.xyz/#person"
+            },
+            "primaryImageOfPage": {
+                "@id": "https://akbarputra.xyz/#primaryimage"
+            },
+            "image": {
+                "@id": "https://akbarputra.xyz/#primaryimage"
+            },
+            "thumbnailUrl": "https://akbarputra.xyz/",
+            "datePublished": "2019-11-22T19:29:01+00:00",
+            "dateModified": "2023-08-15T13:16:54+00:00",
+            "breadcrumb": {
+                "@id": "https://akbarputra.xyz/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [{
+                "@type": "ReadAction",
+                "target": ["https://akbarputra.xyz/"]
+            }]
+        },
+        {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://akbarputra.xyz/#primaryimage",
+            "url": "https://akbarputra.xyz/",
+            "contentUrl": "https://akbarputra.xyz/",
+            "width": 359,
+            "height": 553
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://akbarputra.xyz/#breadcrumb",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home"
+            }]
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://akbarputra.xyz/#website",
+            "url": "https://akbarputra.xyz/",
+            "name": "AkbarPutra",
+            "description": "UI/UX designer who teaches design on YouTube.",
+            "publisher": {
+                "@id": "https://akbarputra.xyz/#person"
+            },
+            "potentialAction": [{
+                "@type": "SearchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://akbarputra.xyz/?s={search_term_string}"
+                },
+                "query-input": "required name=search_term_string"
+            }],
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": ["Person", "Organization"],
+            "@id": "https://akbarputra.xyz/#person",
+            "name": "manager",
+            "image": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://akbarputra.xyz/#person/image",
+                "url": "https://ml0eehlclbti.i.optimole.com/n_d9yNU-rTF0ytSB/w:586/h:785/q:90/https://akbarputra.xyz/",
+                "contentUrl": "https://ml0eehlclbti.i.optimole.com/n_d9yNU-rTF0ytSB/w:586/h:785/q:90/https://akbarputra.xyz/",
+                "width": 586,
+                "height": 785,
+                "caption": "manager"
+            },
+            "logo": {
+                "@id": "https://akbarputra.xyz/#person/image"
+            }
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://akbarputra.xyz/#organization",
+            "name": "Akbar Putra",
+            "url": "https://akbarputra.xyz/",
+            "sameAs": [
+                "https://www.linkedin.com/in/akbarputra37/",
+                "https://medium.com/@akbarputra37",
+                "https://www.youtube.com/@akbarputra37",
+                "https://x.com/akbarputra37"
+            ],
+            "logo": {
+                "@type": "ImageObject",
+                "@id": "https://akbarputra.xyz/#logo",
+                "inLanguage": "en-US",
+                "url": "https://raw.githubusercontent.com/wildanproject1/img_wildanakpn/main/SVG/icon_wildanakpn.png",
+                "width": 1200,
+                "height": 519,
+                "caption": "Akbar Putra"
+            },
+            "image": {
+                "@id": "https://akbarputra.xyz/#logo"
+            }
+        },
+        {
+            "@type": "ImageObject",
+            "@id": "https://akbarputra.xyz/#primaryimage",
+            "inLanguage": "en-US",
+            "url": "https://raw.githubusercontent.com/wildanproject1/img_wildanakpn/main/SVG/icon_wildanakpn.png",
+            "width": 1201,
+            "height": 720,
+            "caption": "Akbar Putra"
+        },
+        {
+            "@type": "WebPage",
+            "@id": "https://akbarputra.xyz/#webpage",
+            "url": "https://akbarputra.xyz/",
+            "name": "Akbar Putra | IT Product Designer Customer-Centric or UI/UX Designer",
+            "isPartOf": {
+                "@id": "https://akbarputra.xyz/#website"
+            },
+            "about": {
+                "@id": "https://akbarputra.xyz/#organization"
+            },
+            "primaryImageOfPage": {
+                "@id": "https://akbarputra.xyz/#primaryimage"
+            },
+            "datePublished": "2015-03-02T12:10:52+00:00",
+            "dateModified": "2022-01-13T21:52:27+00:00",
+            "description": "Akbar Putra | IT Product Designer Customer-Centric or UI/UX Designer",
+            "inLanguage": "en-US",
+            "potentialAction": [{
+                "@type": "ReadAction",
+                "target": ["https://akbarputra.xyz/"]
+            }]
+        }
+    ]
+}
